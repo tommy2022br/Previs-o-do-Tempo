@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:open sans, sans-serif;
+}
+button {
+    background-color:7c7c7c;
+    opacity: 0.8;
+
+}
+
+h2 {
+    color: blue;
+    font-size: 50px;
+}
+body {
+    background: url("https://source.unsplash.com/1600x900/?landscape");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    color: rgb(237, 241, 241);
+    font-size: 30px;
+}
+.caixa-maior {
+    background-color: black;
+    opacity: 0.8;
+    width: 95%;
+    max-width: 450px;
+    border-radius: 25px;
+    padding: 25px;
+}
+.lupa {
+    height: 20px;
+    width: 20px;
+
+}
+
+.icone {
+    height: 50px;
+    width: 50px;
+}
+button {
+    width: 40px;
+    border: none;
+    padding: 10px;
+    background-color: 7c7c7c2b;
+    cursor: pointer;
+    border-radius: 50%;   
+    float: right; 
+}
+
+button:hover {
+    background-color:dimgray;
+}
+ 
+input {
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: 7c7c7c2b;
+    width: calc(100% - 100px);
+    font-size: 24px;
+}
+.caixa-media {
+    margin-top: 20%;    
+}
+.cidade {
+    color: white;
+    font-size: 28px;
+}
+
+.temp {
+    color: yellow;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.umidade {
+    color: white;
+    margin-top: 30px;
+
+}
